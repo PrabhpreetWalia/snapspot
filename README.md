@@ -16,3 +16,7 @@ Snapspot is built using the following technologies:
 - **Jinja2:** A templating engine for Python used to render dynamic content in the HTML templates.
 - **MySQL:** A relational database management system used to store and retrieve picture and location data.
 - **REST API:** The microservices architecture of the website is based on a RESTful API that connects the different components and allows communication between them.
+
+## Contribution
+
+Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
