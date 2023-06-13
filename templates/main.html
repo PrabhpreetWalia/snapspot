@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}
+SnapSpot
+{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="../static/main.css">
+
+{% endblock %}
+
+{% block body %}
+
+<div id="card-holder">
+
+    {% for pic in data %}
+    <div class="card">
+        <img src="{{ pic['link'] }}" alt="">
+        <div class="card-desc">Location: {{ pic['location'] }}</div>
+    </div>
+
+    {% endfor %}    
+    
+</div>
+
+
+{% endblock %}
+
+{% block redirect %}
+<a href="/admin">Admin Page<div class="underline"></div></a>
+{% endblock %}
